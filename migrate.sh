@@ -27,6 +27,6 @@ echo ""
 echo "👉 Use this to find it:"
 echo "   The board of Team Neptune decided to take over control of one e-commerce webserver from the default namespace."
 echo "   The admin who once set up this webserver is no longer part of the organization."
-echo "   All information you could get was that the application contains a system called 'parser'."
+echo "   All the information you could get was that the application contains a system called 'parser'."
 echo "   Search for the application containing the parser system and migrate it into the 'neptune' namespace."
 

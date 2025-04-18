@@ -6,6 +6,9 @@ The admin who once setup this webserver is not part of the organization any long
 
 Search for the application containing the parser system and migrate it into the `neptune` namespace.
 
+Navigate here to open a free CKAD lab enviornment to work on this challenge:
+- https://killercoda.com/
+
 Git clone this repository to setup this lab and follow the below steps:
 ```shell
 git clone https://github.com/Gwenbleidd32/ckad-labs.git

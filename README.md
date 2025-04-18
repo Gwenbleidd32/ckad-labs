@@ -1,6 +1,6 @@
 ### CKAD Challenge Question
 
-The board of team Neptune decided to take over control of one e-commerce webserver from the default namespace.
+The board of team Neptune decided to take over control of a server running in the `default` namespace.
 
 The admin who once setup this webserver is not part of the organization any longer. All the information you could get was that the application contains a system called `parser`. 
 

@@ -61,8 +61,7 @@ EOF
 echo "[+] Waiting 10 seconds for rollout to fail..."
 sleep 10
 
-echo "[⚠] Lab setup complete. Here's the current rollout history:"
-kubectl rollout history deployment/api-newc32 -n neptune
+echo "[⚠] Scenario Complete"
 
 echo " Lab Setup is Now Complete!"
 echo "📌 You now have a broken rollout in 'api-newc32'."

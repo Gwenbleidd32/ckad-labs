@@ -10,6 +10,7 @@ I recommend you the CKAD enviornment, and also practice the premade labs they ha
 - Navigate here to open a free CKAD lab enviornment to work on this challenge:
 - https://killercoda.com/
 
+---
 ### Challenge Question 1
 The board of team Neptune decided to take over control of a server running in the `default` namespace.
 

@@ -1,3 +1,15 @@
+# CKAD Practice Questions
+
+This Repository contains my collection of CKAD questions collected from scalping killer.sh exams.
+I've created shell scripts to provision the enviornments necessary to complete some of these questions/
+After using a shell script to create an enviornment please recreate and initiate a new enviornment.
+
+Please Create an account at the below link to have access to free clusters to practice these questions.
+I recommend you the CKAD enviornment, and also practice the premade labs they have as well to sharpen your skills.
+
+- Navigate here to open a free CKAD lab enviornment to work on this challenge:
+- https://killercoda.com/
+
 ### Challenge Question 1
 The board of team Neptune decided to take over control of a server running in the `default` namespace.
 
@@ -5,8 +17,6 @@ The admin who once setup this webserver is not part of the organization any long
 
 Search for the application containing the parser system and migrate it into the `neptune` namespace.
 
-Navigate here to open a free CKAD lab enviornment to work on this challenge:
-- https://killercoda.com/
 
 *Git clone this repository to setup this lab and follow the below steps:*
 ```shell
@@ -32,6 +42,7 @@ A Developer recently made an update to the Deployment but the updated version ne
 Check the deployment history and find a revision that works, then rollback to it. 
 
 Also could you describe the issue that caused the rollout to fail to neptune team-lead?
+
 
 *Git clone this repository to setup this lab and follow the below steps:*
 ```shell
@@ -60,6 +71,9 @@ Also check if the logs of the Pod show the request and write those into /opt/ser
 ---
 ### Challenge Question 4
 Team Neptune has it's own `ServiceAccount` named `neptune-sa-v2` in Namespace `neptune`. A coworker needs the token from the secret that belongs to that *`ServiceAccount`* Write the base64 decoded token to file `/opt/token`
+
+
+*Git clone this repository to setup this lab and follow the below steps:*
 ```shell
 git clone https://github.com/Gwenbleidd32/ckad-labs.git
 

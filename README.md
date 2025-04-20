@@ -50,3 +50,10 @@ The answer to this question will be posted at a later date!
 
 ---
 
+### Challenge Question 3
+*No configuration script is required for this challenge.*
+
+Team Pluto needs a new cluster internal service. Create a cluster IP Service named named `project-plt-6cc-svc` in Namespace `pluto`. This service should expose a single `project-plt-6cc-api` of image `nginx:1.17.3-alpine`, create the pod as well. The pod should be identified by label `project:plt-6cc-api`. The Service should use tcp port redirection of `3333:80`
+
+Finally use for example `curl` from a temporary `nginx:alpine` Pod to get the response from the service. Write the response into `/opt/service_test.html`. Also check if the logs of the Pod show the request and write those into /opt/service_test.log
+

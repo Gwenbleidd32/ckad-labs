@@ -57,3 +57,16 @@ Team Pluto needs a new cluster internal service. Create a cluster IP Service nam
 
 Finally use for example `curl` from a temporary `nginx:alpine` Pod to get the response from the service. Write the response into `/opt/service_test.html`. Also check if the logs of the Pod show the request and write those into /opt/service_test.log
 
+---
+### Challenge Question 4
+
+Team Neptune has it's own `ServiceAccount` named `neptune-sa-v2` in Namespace `neptune`. A coworker needs the token from the secret that belongs to that *`ServiceAccount`* Write the base64 decoded token to file `/opt/token`
+```shell
+git clone https://github.com/Gwenbleidd32/ckad-labs.git
+
+cd ckad-labs
+
+chmod secret.sh
+
+./secret.sh
+```

@@ -1,11 +1,11 @@
 # CKAD Practice Questions
 
 This Repository contains my collection of CKAD questions collected from scalping killer.sh exams.
-I've created shell scripts to provision the enviornments necessary to complete some of these questions/
-After using a shell script to create an enviornment please recreate and initiate a new enviornment.
+I've created shell scripts to provision the enviornments necessary to complete these questions.
+After using the shell script to setup a lab, please recreate and initiate a new enviornment to avoid issues
 
 Please Create an account at the below link to have access to free clusters to practice these questions.
-I recommend you the CKAD enviornment, and also practice the premade labs they have as well to sharpen your skills.
+I recommend you use the CKAD enviornment, and also practice the pre-made labs they have as well to sharpen your skills.
 
 - Navigate here to open a free CKAD lab enviornment to work on this challenge:
 - https://killercoda.com/
